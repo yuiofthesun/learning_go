@@ -10,16 +10,16 @@ func WordCount (s string) map[string]int {
 	splitWords := strings.Fields(s)
 	NumberofWords:= len(splitWords)
 	var wordcount int
-	for i :=0, splitWords[i] := range {
+	for , splitWords[i] := range splitWords {
 		ReturnMap[splitWords[i]]= wordcount
-	j := i
-	for j, splitWords[j] := range ReturnMap {
-		firstTerm := splitWords[i]
-		CompareTerm := splitWords[j]
-			if firstTerm == CompareTerm {
-				wordcount++
+
+	//j := i
+//	for j, splitWords[j] := range ReturnMap {
+//		firstTerm := splitWords[i]
+//		CompareTerm := splitWords[j]
+//			if firstTerm == CompareTerm {
+//				wordcount++
 			}
-	}
 }
 	return ReturnMap
 	//return map[string]int{"x": 1}
